@@ -1,0 +1,285 @@
+
+
+#sidebar {
+position: static;
+z-index:999;
+width:999999x;
+top:200px;
+left:0px;
+border:0px solid {color:borders};
+z-index:999;
+height:25px;
+padding:0px;
+ 
+}
+
+/* the ones that start with . is a class */ 
+.blogtit {
+    font-family:'calibri',sans-serif;
+    z-index:999;
+    text-align: left;
+    margin-top:180x;
+    
+    font-weight:600;
+    font-size:50px;
+    margin-left:-5px;
+    border:1px solid {color:borders};
+    padding-top:90px;
+    background:white;
+    padding-left:5px;
+    letter-spacing:3px;
+   
+    color:grey;
+   }
+
+#description{
+float:left;
+font-size:20px;
+border:1px solid {color:borders};
+font-weight:10;
+background: white;
+margin-top:8px;
+padding-left: 12px;
+  padding-right: 10px;
+line-height:25px;
+margin-left:-10px;
+color: grey;
+font-family:calibri;
+
+letter-spacing:0.8px;
+  -webkit-transition: all .9s ease;
+-moz-transition: all .9s ease;
+-o-transition: all .9s ease;
+transition: all .9s ease;
+}  
+
+#links {
+  font-family: calibri;
+  font-size: 18px;
+  margin-top: 2px;
+  padding-left: 0px;
+  color: grey;
+}
+
+#linkiiis a {
+    z-index:9999;
+    width:15px;
+font-size: 15px;
+font-family:consolas;
+   
+  color: grey;
+
+letter-spacing:1px;
+padding:10px;
+text-align:right;
+background:{color:sidebar background};
+margin-top: 2px;
+margin-left:2px;
+margin-bottom: 100px;
+border: 1px solid {color:borders};
+transition: all 0.9s ease-out;
+transition:0.4s;
+-webkit-transition:all 0.6s ease-out;
+-moz-transition:all 0.6s ease-out;
+transition:all 0.6s ease-out;
+text-shadow:10px 0px transparent, -10px 0px transparent;
+}
+
+#linkiiis {
+       z-index:99999999999999999999999999;
+position: sticky;
+width:150px;
+margin-top: 0px;
+margin-left:2350px;
+}
+
+#posts{
+float:center;
+margin-top:250px;
+  
+{block:indexpage}
+width:350px;
+{/block:indexpage}
+margin-left:405px;
+}
+
+.button{
+
+  background: transparent;
+  width: 100%;
+  outline: none;
+  border: none;
+  
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  border-radius: 10px;
+  font-family: calibri;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.close{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#entry1 {
+position: relative;
+font-family:'calibri',sans-serif;
+font-weight:400;
+font-size:15px ;
+line height: 11px;
+text-align:center;
+float: left;
+width: 101.17%;
+height: 150px;
+margin-left: -15px;
+border:0px solid white;
+padding-top:80px;
+padding-bottom:0px;
+color: white;
+background: #aec6cf;
+overflow: hidden;
+-o-transition-transition: all .9s ease-out;
+-webkit-transition: all .9s ease-out;
+-moz-transition: all .9s ease-out;
+  
+}
+
+#entry1:hover {
+  background-image: url("https://pix10.agoda.net/geo/city/9395/1_9395_02.jpg?s=1920x822");
+  height:150px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#entry2 {
+position: relative;
+font-family:'calibri',sans-serif;
+font-weight:400;
+font-size:15px ;
+line height: 11px;
+text-align:center;
+float: left;
+width: 101.17%;
+height: 150px;
+margin-left: -15px;
+margin-top: 5px;
+border:0px solid white;
+padding-top:80px;
+padding-bottom:0px;
+color: white;
+background: #aec6cf;
+overflow: hidden;
+-o-transition-transition: all .9s ease-out;
+-webkit-transition: all .9s ease-out;
+-moz-transition: all .9s ease-out;
+}
+
+#entry2:hover {
+  background-image: url("https://miro.medium.com/max/4096/1*zw-CgiuY2Q_cOt0uNG3f0w.jpeg");
+  height:150px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#entry3 {
+position: relative;
+font-family:'calibri',sans-serif;
+font-weight:400;
+font-size:15px ;
+line height: 11px;
+text-align:center;
+float: left;
+width: 101.17%;
+height: 150px;
+margin-left: -15px;
+margin-top: 5px;
+border:0px solid white;
+padding-top:80px;
+padding-bottom:0px;
+color: white;
+background: #aec6cf;
+overflow: hidden;
+-o-transition-transition: all .9s ease-out;
+-webkit-transition: all .9s ease-out;
+-moz-transition: all .9s ease-out;
+}
+
+#entry3:hover {
+  background-image: url("https://i.pinimg.com/originals/cf/7d/dc/cf7ddc6212d9a07f0afbc3e18d612a54.jpg");
+  height:150px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#entry4 {
+position: relative;
+font-family:'calibri',sans-serif;
+font-weight:400;
+font-size:15px ;
+line height: 11px;
+text-align:center;
+float: left;
+width: 101.17%;
+height: 150px;
+margin-left: -15px;
+margin-top: 5px;
+border:0px solid white;
+padding-top:80px;
+padding-bottom:0px;
+color: white;
+background: #aec6cf;
+overflow: hidden;
+-o-transition-transition: all .9s ease-out;
+-webkit-transition: all .9s ease-out;
+-moz-transition: all .9s ease-out;
+}
+
+#entry4:hover {
+  background-image: url("https://s.yimg.com/ny/api/res/1.2/vVc_ZAQi_boYGA9ZVq2aoQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTguNjI1/https://s.yimg.com/uu/api/res/1.2/XM90FtDSWouBgsXVMCRLxQ--~B/aD0zMjQwO3c9NTc2MDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2019-04/3cd06420-5cef-11e9-a9e7-16b919a751fc");
+  height:150px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
